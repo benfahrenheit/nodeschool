@@ -1,11 +1,9 @@
-var fs = require('fs');
+var mymodule = require('./async-ls-module.js');
 
-fs.readdir(process.argv[2], function(err, files) {
-   if (!err) {
-       files.forEach(function(file) {
-           if (file.endsWith('.' + process.argv[3])) {
-               console.log(file);
-           }
-       });
-   } 
+mymodule(process.argv[2], process.argv[3], function(err, files) {
+    if (!err) {
+        files.forEach(function(file) {
+            console.log(file);
+        });
+    }
 });
