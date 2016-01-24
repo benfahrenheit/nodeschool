@@ -1,0 +1,19 @@
+{
+    "version": "0.1.0",
+    "command": "gulp",
+    "args": ["--cwd", "${fileDirname}"],
+    "isShellCommand": true,
+    
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": ["--file", "${file}"],
+            "isBuildCommand": true
+        },
+        {
+            "taskName": "test",
+            "args": ["--file", "${file}"],
+            "isTestCommand": true
+        }
+    ]
+}

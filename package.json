@@ -8,8 +8,8 @@
     "type": "git",
     "url": "https://github.com/benfahrenheit/nodeschool"
   },
-  
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.1"
   }
 }
