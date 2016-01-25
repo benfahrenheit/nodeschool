@@ -1,0 +1,17 @@
+{
+  "name": "nodeschool",
+  "version": "0.0.1",
+  "description": "Working through nodeschool workshops",
+  "author": "benfahrenheit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benfahrenheit/nodeschool"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.1",
+    "strftime": "^0.9.2",
+    "through2-map": "^2.0.0"
+  }
+}
