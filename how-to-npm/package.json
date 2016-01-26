@@ -1,0 +1,11 @@
+{
+  "name": "@benfahrenheit/how-to-npm",
+  "version": "1.0.0",
+  "description": "Playing with the how-to-npm sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "benfahrenheit",
+  "license": "MIT"
+}
