@@ -4,11 +4,8 @@
   "description": "Playing with the how-to-npm sample",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "benfahrenheit",
-  "license": "MIT",
-  "dependencies": {
-    "@linclark/pkg": "^1.0.2"
-  }
+  "license": "MIT"
 }
