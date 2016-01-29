@@ -9,6 +9,8 @@
     "url": "https://github.com/benfahrenheit/nodeschool"
   },
   "devDependencies": {
+    "concat-stream": "^1.5.1",
+    "esrever": "^0.2.0",
     "gulp": "^3.9.0",
     "gulp-shell": "^0.5.1",
     "split": "^1.0.0",
