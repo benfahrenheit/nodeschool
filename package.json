@@ -9,6 +9,7 @@
     "url": "https://github.com/benfahrenheit/nodeschool"
   },
   "devDependencies": {
+    "body-parser": "^1.14.2",
     "concat-stream": "^1.5.1",
     "duplexer2": "^0.1.4",
     "esrever": "^0.2.0",
