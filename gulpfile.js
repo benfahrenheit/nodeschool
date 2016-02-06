@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var shell = require('gulp-shell');
+var ts = require('gulp-typescript');
 var path = require('path');
 
 function processNodeschoolRunner(runnerCommand, fullFileName) {
@@ -23,3 +24,12 @@ gulp.task('test', function() {
 gulp.task('build', function() {
     processNodeschoolRunner('verify', process.argv[6]);
 });
+
+gulp.task('compile', () => {
+    var project = ts.createProject('tsconfig.json')
+    return project.src()
+                  .pipe(ts(project)).js
+                  .pipe(gulp.dest('build'));
+});
+
+gulp.task('default', ['compile']);
