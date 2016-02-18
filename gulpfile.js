@@ -1,3 +1,5 @@
+/// </// <reference path="typings/gulp/gulp.d.ts" />
+
 var gulp = require('gulp');
 var shell = require('gulp-shell');
 var ts = require('gulp-typescript');
