@@ -1,3 +1,5 @@
+"use strict";
+
 function parsePromised() {
     return new Promise((fulfill, reject) => {
         try {
